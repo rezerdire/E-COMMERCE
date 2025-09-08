@@ -93,7 +93,7 @@
             <button class="px-3 py-1 border rounded-lg">Pink</button>
             <button class="px-3 py-1 border rounded-lg">Silver</button>
             <button class="px-3 py-1 border rounded-lg">Blue</button>
-          </div>
+          </div>a
         </div>
 
         <div class="mt-6">

@@ -1,13 +1,10 @@
 <section class="py-12 h-screen">
-  <div class="mx-auto max-w-screen-xl px-4 2xl:px-0 mt-20">
+  <div class="mx-auto max-w-screen-xl px-4 2xl:px-0 ">
     <div class="flex items-center justify-between mb-8">
       <h2 class="text-xl font-semibold text-gray-900 sm:text-2xl">
-        Categories that might interest you
+        Category List
       </h2>
-      <a href="#"
-        class="text-sm font-medium text-gray-600 hover:text-blue-600 border border-gray-200 px-3 py-1.5 rounded-lg">
-        See all categories
-      </a>
+
     </div>
 
     <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">

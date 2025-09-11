@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\Auth\LoginPage;
 use App\Livewire\CartPage;
 use App\Livewire\CategoriesPage;
 use App\Livewire\CheckoutPage;
@@ -8,6 +9,7 @@ use App\Livewire\MyOrderDetailPage;
 use App\Livewire\MyOrdersPage;
 use App\Livewire\ProductDetailPage;
 use App\Livewire\ProductsPage;
+use Filament\Auth\Pages\Login;
 use Illuminate\Support\Facades\Route;
 
 
@@ -20,3 +22,7 @@ Route::get('/products/{product}', ProductDetailPage::class);
 Route::get('/checkout', CheckoutPage::class);
 Route::get('/my-orders', MyOrdersPage::class);
 Route::get('/my-orders/{order}', MyOrderDetailPage::class);
+
+
+// lOGIN
+Route::get('/login', LoginPage::class);

@@ -2,9 +2,9 @@
 
 <div>
 <!-- Title -->
-<div class="pt-32 bg-gray-100">
+<div class=" bg-gray-100 h-screen pt-10">
 <h1 class="text-center text-2xl font-bold text-gray-800">All Products</h1>
-</div>
+
 
 
 
@@ -332,4 +332,6 @@
 
     </div>
 </section>
+</div>
+
 </div>

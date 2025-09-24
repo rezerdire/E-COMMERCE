@@ -78,7 +78,9 @@ class ProductsForm
                 Section::make("Upload Image")
                     ->schema([
                 
-                        FileUpload::make('image')
+                        FileUpload::make('image')  
+                        ->disk('public')
+                        ->directory('products')
                         ->image(), //IMAGE
 
                         Toggle::make('is_active')

@@ -19,7 +19,7 @@
             <h1 class="block text-2xl font-bold text-gray-800 ">Sign in</h1>
             <p class="mt-2 text-sm text-gray-600 ">
               Don't have an account yet?
-              <a class="text-blue-600 decoration-2 hover:underline font-medium " href="/register">
+              <a wire:navigate class="text-blue-600 decoration-2 hover:underline font-medium " href="/register">
                 Sign up here
               </a>
             </p>
@@ -49,7 +49,7 @@
               <div>
                 <div class="flex justify-between items-center">
                   <label for="password" class="block text-sm mb-2 ">Password</label>
-                  <a class="text-sm text-blue-600 decoration-2 hover:underline font-medium " href="/forgot">Forgot password?</a>
+                  <a wire:navigate class="text-sm text-blue-600 decoration-2 hover:underline font-medium " href="/forgot">Forgot password?</a>
                 </div>
                 <div class="relative">
                   <input type="password" id="password" name="password" class="py-3 px-4 block w-full border border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none " required aria-describedby="password-error">
